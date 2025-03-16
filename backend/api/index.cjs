@@ -4,10 +4,10 @@
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-const {fetchMovieDetails} = require("./details.cjs")
-const {getMovieSummary, getQuizContentJSON, isValid} = require('./generator.cjs');
+const {fetchMovieDetails} = require("../details.cjs");
+const {getMovieSummary, getQuizContentJSON, isValid} = require('../generator.cjs');
 const app = express();
-const PORT = 5000;
+const PORT = 5001;
 
 app.use(cors()); 
 app.use(bodyParser.json()); 

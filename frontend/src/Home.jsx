@@ -24,7 +24,7 @@ function Home() {
 
       try {
         const response = await fetch(
-          `http://www.omdbapi.com/?s=${searchTerm}&apikey=3816ca8e`
+          `https://www.omdbapi.com/?s=${searchTerm}&apikey=3816ca8e`
         );
         const data = await response.json();
 

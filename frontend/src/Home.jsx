@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import './App.css';
 import Icon from "./assets/logo.png";
-import videoBg from "./assets/videoBg.mp4";
+import videoBg from "/videoBG.mp4";
 
 function Home() {
   const [inputValue, setInputValue] = useState('');
